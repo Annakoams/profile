@@ -1,0 +1,297 @@
+
+body{
+    --color-accent:rgba(230, 17, 74, 0.741);
+     --color-accent-hover:rgba(84, 21, 38, 0.741); 
+}
+
+.text-danger{
+    color: var(--color-accent) !important;
+} 
+.btn-danger{
+   background-color: var(--color-accent);
+   border-color: var(--color-accent);
+} 
+.btn-danger:hover{
+    background-color: var(--color-accent-hover);
+    border-color: var(--color-accent-hover); 
+  }  
+.btn-outline-danger{
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+ }
+ .btn-outline-danger:hover{
+    border-color: var(--color-accent);
+    color: white;
+} 
+   
+    
+    
+    /* 
+navbar
+ */
+ #navbarSite{
+    transition: 0.5s;
+    z-index: 1500;
+ }
+ a.nav-link{
+    color: white;
+    font-weight: 400;
+    
+ }
+
+
+
+
+/*
+ bacground
+  */
+
+#firstRowHomePage{
+    min-height:100vh;
+    background-image: url("images/imagefond.webp");
+    background-position: center;
+    
+
+}
+/* .scrolled{
+    background-color: white;
+} */
+#text-resentation{
+    background-color: rgba(25, 23, 39, 0.9);
+    margin-top: -100px;
+}
+.main-content-website section:nth-child(2n){
+    background-color: #2e3135;
+}
+/* premier section */
+.description{
+    max-width: 550px;
+    margin:15px auto;
+}
+.text-bienvenue{
+    font-size: 25px;
+}
+.big-text{
+    font-size:40px;
+    font-weight: bold;
+}
+#mouseBtn i{
+    position: absolute;
+    font-size: 40px;
+    bottom: 30px;
+    color: aliceblue;
+    /* right:50%;
+    left:50%; */
+    transform: rotate(180deg);
+    transition:0.5s;
+}  
+#mouseBtn i:hover{
+    transform: scale(2);
+    cursor: pointer;
+    transform-origin: center;
+}
+.btn-social-share{
+    border-radius: 50%;
+    width: 40px;
+    height: 50px;
+}
+
+/* 
+seconde section
+ */
+ #about{
+    background-color: rgba(18, 18, 28, 0.568);
+}
+#quiSuisJe{
+    text-align: center; 
+}
+#descriptionDeMoi{
+    margin-top: 10vh;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* 
+cards
+*/
+.all-competances .card-img-top{
+    max-width: 100px;
+    
+    margin: auto;
+}
+a.nav-link.active{
+    color:var(--color-accent) !important;
+      
+} 
+/* contacer moi */
+#available{
+    background-color: rgba(18, 18, 28, 0.568);
+}
+/* .btn-danger{
+    color:var(--color-accent)!important;
+} */
+.text-danger{
+    color:var(--color-accent)!important;
+}
+
+/* temoiniages */
+.temoignage-text{
+    color:#474a4d;
+}
+.testimonial-icon{
+    color:var(--color-accent);
+    padding:30px;
+    font-size: 50px;
+
+}
+#client{
+    padding-bottom:100px !important;
+
+}
+.carousel-indicators [data-bs-target]{
+    background-color: var(--red-accent);
+}
+/* btn de bas */
+#scroll-top-button{
+    position: fixed;
+    bottom:10px;
+    right: 0;
+    background-color: var(--red-accent);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+#scroll-top-button.show{
+    opacity: 1;
+    visibility: visible;
+}
+#color-setter{
+    position: fixed;
+    top:15%;
+    z-index: 1200;
+    display: flex;
+    left: -100px;
+    transition: 0.5s;
+}
+
+#color-setter .color-pickers{
+    width:100px;
+    padding: 15px;
+    background-color: #181818;
+    border-radius: 15px;
+}
+
+#color-setter .color-button{
+    padding:5px;
+}
+
+@keyframes rotateSettings {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+        transform: rotate(360deg);
+
+    }
+}
+
+#color-setter .color-button i{
+    display: block;
+    animation-name: rotateSettings;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+#realisations img.realisations-img{
+    max-width: 100%;
+}
+
+#realisations a{
+    color:white;
+    text-decoration: none;
+}
+
+#realisations a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+.contact-container .contact-header i{
+    font-size: 45px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-container .contact-header h3{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.contact-container .contact-body a,
+.contact-container .contact-body{
+    text-decoration: none;
+}
+
+.footer-page div{
+ margin:30px;
+}
+
+.footer-page{
+    background-color: #181818;
+    padding: 40px;
+}
+
+
+.footer-page a{
+    text-decoration: none;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+    border-radius: 15px;
+    margin-top: 60px;
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+/* formulaire */
+.form-kerri .form-control{
+    color: white;
+    background-color: #2e3135;
+    box-shadow: none !important;
+    height: 50px;
+    margin-bottom: 14px;
+    background-color: transparent;
+
+
+}
+.form-control{
+    color: aliceblue;
+    height: 50px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-clip: padding-box;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+button, input, optgroup, select, textarea{
+    margin: 0;
+    font-family: inherit;
+}
+.form-kerri textarea.form-control{
+    height: auto;
+}
+.textarea.form-control {
+
+    min-height: calc(1.5em + 0.75rem + 2px);
+}
+
