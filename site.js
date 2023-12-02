@@ -45,13 +45,7 @@ const mouse = {
     x: undefined,
     y: undefined,
 };
-// canvas.addEventListener("mousemove", function (event) {
-//     mouse.x = event.x;
-//     mouse.y = event.y;
-//     for (let i = 0; i < 3; i++) {
-//         spots.push(new Particle());
-//     }
-// });
+
 canvas.addEventListener("mousemove", function (event) {
     if (event.target === canvas) {
         mouse.x = event.x;
@@ -197,30 +191,7 @@ hiddenElement.forEach((el) => observer.observe(el))
   });
 
 
-//  collor setter
 
-//  var r = document.querySelector('body');
-//  function changeColor(color, colorhover) { 
-//    r.style.setProperty('--color-accent', color);
-//   r.style.setProperty('--color-accent-hover', colorhover);
-//  }  
-//  function ChangeColorFromPicker(){
-//     let color = document.getElementById("colorAccent");
-//     let colorHover = document.getElementById("colorHover");
-
-//     changeColor(color.value, colorHover.value);
-// }
-
-
-// function ShowPanelColor(){
-//     let panel = document.getElementById("color-setter");
-//     if(panel.style.left == "0px"){
-//         panel.style.left = "-100px";
-//     }
-//     else{
-//         panel.style.left = "0px";
-//     }
-// }
 
 
 
