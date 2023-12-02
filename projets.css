@@ -1,0 +1,193 @@
+a , p , h1 ,span, .skills-text{
+    color: #eceae3;
+}
+a:hover{
+    color:white;
+    text-decoration: none !important;
+}
+ul, ol {
+    width: 150px;
+    color: #eceae3;
+    margin: auto;
+    text-align: center; 
+}
+
+/* buton translate global */
+/* button translate */
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: auto;
+    left: auto;
+}
+
+.toggle-container {
+    display: flex;
+    flex-direction: row;
+    width: 35px;
+    cursor: pointer;
+}
+
+.slider {
+    width: 35px;
+    height: 20px;
+    background-color: var(--color-accent); /* Change the background color of the slider */
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.handle {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid #707070; /* Change the border color of the handle */
+    border-radius: 50%;
+    margin-left: -35px;
+    transition: margin-left 0.3s ease;
+}
+
+/* annimation dapparition des ellement */
+.hidden{
+    opacity: 0;
+    filter:blur(5px);
+    transform: translateX(-200px);
+    transition: all 1s;
+   }
+   
+  @media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+  } 
+   .showannimation{
+    opacity: 1 ;
+    filter:blur(0);
+    transform: translateX(0);
+   }
+
+     /* show showannimation */
+  .text:nth-child(2){
+    transition-delay: 200ms;
+
+   }
+   .text:nth-child(3){
+    transition-delay: 300ms;
+    
+   }
+   .text:nth-child(4){
+    transition-delay: 400ms;
+    
+   }
+   .text:nth-child(5){
+    transition-delay: 500ms;
+    
+   }
+   .text:nth-child(6){
+    transition-delay: 600ms;
+    
+   }
+  /* Styles pour la réduction du mouvement */
+@media (prefers-reduced-motion: no-preference) {
+  
+    a.title-carte-project {
+        transition-property: all;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 300ms;
+    }
+
+    a.title-carte-project:hover {
+        background-color: var(--color-accent);
+    }
+
+    .title-carte-project {
+        border-bottom: 2px solid var(--color-accent);
+    }
+
+    .bg-project {
+        background-color: var(--color-bg);
+    }
+
+    #project a,
+    .modal-link {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+/* Styles spécifiques au projects */
+
+#project a,
+.modal-link {
+    color: white !important;
+    text-decoration: none !important;
+} 
+.modal-project1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #520e4b, #191625, #191625);
+}
+
+.modal-project1.show {
+    display: block;
+}
+
+.close-btn {
+    position: absolute;
+    color: white;
+    top: 20px;
+    right: auto;
+    bottom: auto;
+    left: 20px;
+    display: inline;
+}
+.close-btn::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background: white;
+    transition: width 0.2s  ease-in-out;
+
+}
+.close-btn:hover::after{
+    width: 100%;
+}
+.modal-container{
+    overflow-x: hidden;
+    
+
+}
+
+
+.project-modal-img {
+    width: 60%;
+    height: auto;
+}
+@media screen and (max-width:600px){ 
+    .project-modal-img {
+        width: 80%;
+        height: auto;
+    }
+    
+}
+
+.modal-project1 ul li.modal-skils {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    width: 150px;
+    display: block;
+    margin: auto; /* Centrer horizontalement */
+   
+}
+.text-fort {
+    /* border-bottom: 2px dotted var(--color-accent); */
+    color:var(--color-accent)
+}

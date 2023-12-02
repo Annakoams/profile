@@ -1,0 +1,30 @@
+body{
+    
+    --color-accent:#e22b6d;
+     --color-accent-hover:#9c076a;
+     --color-bg: #191625;
+     background-color:var(--color-bg) ;
+     box-sizing: border-box;
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     /* overflow-x: hidden; */
+      -webkit-text-size-adjust: 100%; /*Pour les anciens navigateurs WebKit */
+      text-size-adjust: 100%; /*Pour les navigateurs modernes */
+      text-align: match-parent;/* Pour Edge 79+ et Safari */
+     /* Pour Firefox, Safari, et autres navigateurs modernes */
+      -webkit-tap-highlight-color: transparent;
+     
+}
+ul, ol {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   
+}
+a{
+    text-decoration: none;
+}
+
+

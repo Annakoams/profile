@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OneJitsu</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="projets.css">
+    <link rel="stylesheet" href="reset.css">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/bdb295a301.js" crossorigin="anonymous"></script>
+
+    <!-- Site JavaScript -->
+    <script src="translate.js" defer></script>
+    <script src="projets.js" defer></script>
+
+</head>
+
+<body>
+    <div class="" id="text69"></div>
+    <div class="modal-container" id="modalProject">
+        <div class="modal-project1 ">
+                <div class="close-btn ">
+                    <a class="translatable" data-translation-key="button_back" href="index.html#project">Back</a>
+                </div>
+            
+                <div class="button-container me-5 " id="languageSelector">
+                    <span data-translation-key="languageFR">FR</span>
+                    <div class="toggle-container mx-2" onclick="switchLanguage()">
+                        <div class="slider"></div>
+                        <div class="handle"></div>
+                    </div>
+                    <span data-translation-key="languageEN">EN</span>
+                </div>
+
+            <main class="d-flex row row-2 justify-content-around row row-cols-1 row-cols-md-2 align-items-start py-5  ">
+                <div class="d-flex flex-column align-items-center  ">
+                    <div class="text-start py-5 px-5 ">
+                        <h1 class="translatable pb-5 hidden text" data-translation-key="title_onejitsu">Backoffice for the OneJitsu application</h1>
+                        <p class="translatable my-4 fs-5 hidden text " data-translation-key="p1_onejitsu">
+                            Currently engaged by the creator of the Onjitsu application, I am working solo on creating the desktop mode
+                            backoffice of the application. Due to confidentiality, specific details cannot be disclosed, but I am passionate
+                            about this significant challenge.
+                        </p>
+                        <p class="translatable my-4 fs-5 hidden text  " data-translation-key="p2_onejitsu">This mission involves enabling club managers to efficiently manage their clubs, the
+                            profiles of their members, create events, classes, and news, as well as modify contact details and schedules. The
+                            interface also allows interaction with the number of clubs.
+                        </p>
+                        
+                        <p class="translatable my-4 fs-5  hidden text" data-translation-key="p3_onejitsu"> The application's backend is naturally managed by Firestore.
+                        </p>
+                    </div>
+                    <div class=" px-5 w-100">
+                        <span class="translatable skills-text modal-skils fs-2 fw-semibold   hidden text " data-translation-key="skills">Skills</span>
+                        <div class="   w-100 border-bottom border-light   py-2 hidden text "></div>
+                    </div>
+
+                    <div
+                        class="w-100 row row-cols-2 row-cols-lg-4 g-0 g-lg-3 justify-content-around project-modal-liste mb-4  px-5 ">
+
+                        <div class="col   hidden text">
+                            <ul class="m-auto  mt-3  d-flex flex-column justify-content-center">
+                                <li class=" modal-skils fs-3 fw-semibold ">Front-end</li>
+                                <li class="modal-skils fs-5 fw-medium mt-2">React.js</li>
+                                <li class="modal-skils fs-5 fw-medium ">Html</li>
+                                <li class="modal-skils fs-5 fw-medium">Css</li>
+                                <li class="modal-skils fs-5 fw-medium">Tailwind</li>
+                                <li class="modal-skils fs-5 fw-medium">Hyper ui</li>
+                                <li class="modal-skils fs-5 fw-medium">Mui</li>
+
+                            </ul>
+                        </div>
+                        <div class="col hidden text">
+                            <ul class="m-auto mt-3">
+                                <li class=" modal-skils fs-3 fw-semibold">Back-end</li>
+                                <li class="modal-skils fs-5 fw-medium mt-2">Firestore</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class=" project-modal-container d-flex flex-column align-items-center  mx-auto my-5">
+                    <img class="project-modal-img mb-3 hidden text " src="images\OneJitsuScreen.png" />
+                    <span class="mt-3 p-3 fw-bold fs-5 hidden text "><a
+                            class="title-carte-project py-2 px-4 modal-link w-100"
+                            href="https://onejitsu.com/accueil-onejitsu" target="_blank">Launch website</a></span>
+                </div>
+
+            </main>
+
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

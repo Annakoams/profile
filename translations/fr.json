@@ -1,0 +1,68 @@
+{
+    "button-lunch webside": "btn-l",
+    "button_back": "Retour",
+    "skills": "Compétences",
+
+
+    "link_start": "Démarrer",
+    "link_about": "À propos de moi",
+    "link_project": "Projet",
+    "link_skills": "Compétences",
+    "link_testiomonials": "Témoignages",
+    "link_contact": "Contact",
+
+  
+
+    "text_welcom": "Bienvenue !",
+    "text_toMy": "à mon",
+    "porfolio": "portfolio",
+    "dedicated": "dévoué et motivé",
+    "web_developpeur": "développeur web",
+
+    
+    "about": "À propos de moi",
+    "my_name": "Je m'appelle Stelmach Anna",
+    "desciption1_about": "Après 15 ans dans l'industrie de la mode et une décennie à diriger des magasins, mon changement de carrière m'a conduit vers une profession créative qui m'inspire chaque jour : le développement web. Les défis constants dans ce domaine sont une véritable montagne russe pour moi, une source quotidienne de stimulation que j'apprécie énormément.",
+    "desciption2_about": "Le développement web est plus qu'un simple travail pour moi ; c'est ma passion, un chemin d'apprentissage continu. J'ai consolidé cette transition en obtenant mon diplôme de développeur web, certifié en tant que diplômé RNCP, cette année 2023.",
+    "CV": "Voir mon CV",
+  
+    
+    "project": "Projets",
+    "date1_project": "Décembre 2022 - Janvier 2023",
+    "date2_project": "Janvier 2023 - Mai 2023",
+    
+
+    "text_1": "J'adore coder.",
+    "text_2": "Construire des rêves numériques, une ligne à la fois.",
+    "text_3": "Je suis impatient de mettre ma passion et ma détermination au service de la réussite de votre projet.",
+    
+
+    "contact_apelle": "Appelez-moi !",
+    "chez_moi": "Chez moi",
+    "text_motivation": "Je suis persévérante, professionnelle et positive. Prête à relever de nouveaux défis, je suis enthousiaste à l'idée de mettre mes compétences au service d'une entreprise inspirante et de rejoindre une équipe qualifiée.",
+    
+
+    "title": "Backoffice pour l'application OneJitsu",
+    "p1_onejitsu": "Actuellement engagé par le créateur de l'application Onjitsu, je travaille en solo sur la création du backoffice en mode bureau de l'application. En raison de la confidentialité, des détails spécifiques ne peuvent pas être divulgués, mais je suis passionné par ce défi significatif.",
+    "p2_onejitsu": "Cette mission consiste à permettre aux gestionnaires de clubs de gérer efficacement leurs clubs, les profils de leurs membres, de créer des événements, des cours et des actualités, ainsi que de modifier les coordonnées et les horaires. L'interface permet également d'interagir avec le nombre de clubs.",
+    "p3_onejitsu": "Le backend de l'application est naturellement géré par Firestore.",
+    
+
+
+    "title_quiAntique": "Restaurant Quai Antique",
+    "p1_quaiAntique": "Ce projet a été un<span class=\"fw-bolder text-fort\"> défi</span> significatif pour moi, réalisé dans le cadre de mon examen final pour obtenir le diplôme de développeur web. Il s'agit d'une application complète avec des interfaces <span class=\"fw-bolder text-fort\">frontend et backend</span>, accompagnée d'un<span class=\"fw-bolder text-fort\"> backoffice administrateur</span>. J'y ai consacré cinq mois pour le terminer, et ce projet m'a fourni un aperçu concret du métier de développeur.",
+    "p2_quaiAntique": "Pour sa réalisation, j'ai choisi d'utiliser <span class=\"fw-bolder text-fort\">React.js et Node.js</span>, car ce sont les technologies que je maîtrisais le mieux. J'ai commencé par concevoir <span class=\"fw-bolder text-fort\">toutes les interfaces</span>, tant pour <span class=\"fw-bolder text-fort\">le bureau que pour le mobile, en utilisant Figma</span>, me permettant de visualiser mon site. Ensuite, j'ai créé des <span class=\"fw-bolder text-fort\">diagrammes de cas d'utilisation et un modèle de données conceptuel (MDC)</span> pour comprendre et définir la base de données et les fonctionnalités du site.",
+    "p3_quaiAntique": "Le développement a commencé par la création d'un <span class=\"fw-bolder text-fort\">composant communiquant avec ma base de données via des requêtes SQL</span>. J'ai développé mon <span class=\"fw-bolder text-fort\">API RESTful avec Express.js</span> et le <span class=\"fw-bolder text-fort\">frontend basé sur mes maquettes</span>.<br> <span class=\"text-decoration-underline\">L'aspect visuel de ce projet a été relégué au second plan par rapport aux fonctionnalités qu'il offrait.</span>",
+    "p4_quaiAntique": "Les utilisateurs peuvent <span class=\"fw-bolder text-fort\">s'inscrire, se connecter, réserver une table et l'administrateur, via le backoffice, peut modifier pratiquement tout sur le site</span>. Bien que ce projet ait présenté un <span class=\"fw-bolder text-fort\">défi</span> considérable, il a été très <span class=\"fw-bolder text-fort\">éducatif</span>. Il a également suscité un engagement envers l'amélioration continue et la prise de conscience qu'il <span class=\"fw-bolder text-fort\">y a encore beaucoup à apprendre</span> et à perfectionner dans mon parcours en tant que développeur. Je continue à l'améliorer, car il y a encore beaucoup à faire.",
+
+    
+    "title_coeur": "Association Cœur sur la main",
+    "p1_coeur": "Il s'agit de mon tout premier projet de site web que j'ai commencé en octobre 2022 et qui m'a pris un mois pour le terminer.",
+    "p2_coeur": "C'était un projet front-end réalisé dans le cadre d'une mission individuelle pendant mes études à Studi. Avec du recul, je réalise à quel point il est basique, mais vous savez ce qu'on dit - n'oubliez jamais vos débuts ! <br>pour se rappeler d'où l'on vient !",
+    "p3_coeur": "Ce projet me permet de prendre conscience des progrès que j'ai réalisés en peu de temps dans le domaine de la programmation."
+      
+
+
+
+
+}
