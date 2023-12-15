@@ -7,7 +7,7 @@ const sections = document.querySelectorAll("section");
 
 
 
-// navbar animation
+// navbar animations
 window.onscroll = function() {
   if (window.pageYOffset > 200) {
       navbar.classList.remove("bg-transparent", "navbar-dark");
@@ -23,8 +23,12 @@ window.onscroll = function() {
       links.forEach(link => {
           link.style.color = "";
       });
+
   }
 };
+
+
+
 
 // bouton de retour en haut de la page
 scrollTopButton.addEventListener('click', () => {
