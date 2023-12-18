@@ -60,7 +60,7 @@ function changeLanguage(selectedLanguage) {
             });
 
             // Mettre à jour le titre de la page
-            document.title = data['title'];
+            // document.title = data['title'];
         })
         .catch(error => {
             console.error('Erreur de chargement du fichier JSON :', error);

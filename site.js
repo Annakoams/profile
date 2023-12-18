@@ -9,6 +9,7 @@ const sections = document.querySelectorAll("section");
 
 // navbar animations
 window.onscroll = function() {
+ 
   if (window.pageYOffset > 200) {
       navbar.classList.remove("bg-transparent", "navbar-dark");
       navbar.classList.add("bg-dark", "navbar-dark");
@@ -30,9 +31,9 @@ window.onscroll = function() {
 
 
 
-// bouton de retour en haut de la page
+// bouton de retour en haut de la page // Faites défiler la page vers le haut
 scrollTopButton.addEventListener('click', () => {
-  // Faites défiler la page vers le haut
+  
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 });
@@ -64,7 +65,7 @@ class Particle {
     constructor() {
         this.x = mouse.x;
         this.y = mouse.y;
-        this.size = Math.random() * 0.25 + 0.25;
+        this.size = Math.random() * 0.25 + 0.40;
         this.speedX = Math.random() * 0.5 - 0.5;
         this.speedY = Math.random() * 0.5 - 0.5;
         this.color = 'hsl(' + hue + ', 100%, 50%)';
@@ -114,6 +115,9 @@ function animate() {
     hue++;
     requestAnimationFrame(animate);
 }
+function init() {
+  // Faites des initialisations ici si nécessaire
+}
 
 window.addEventListener("resize", function () {
     canvas.width = window.innerWidth;
@@ -122,8 +126,10 @@ window.addEventListener("resize", function () {
 });
 
 window.addEventListener("mouseout", function () {
+  
     mouse.x = undefined;
     mouse.y = undefined;
+    
 });
 canvas.addEventListener("click", function (event) {
     // event.preventDefault(); // Empêche le comportement par défaut
@@ -195,7 +201,7 @@ hiddenElement.forEach((el) => observer.observe(el))
   });
 
 
-
+  console.log("Titre actuel :", document.title);
 
 
 
