@@ -284,6 +284,7 @@ navbar
     transform: rotate(180deg);
     transition: -webkit-transform 0.5s ease, transform 0.5s ease; /* Préfixes pour la compatibilité avec différents navigateurs */
     z-index: 1400;
+    transform-origin: 50% 50%;
 }
 
 #mouseBtn i:hover {
@@ -291,6 +292,7 @@ navbar
     -webkit-transform: scale(2); /* Préfixes pour la compatibilité avec différents navigateurs */
     cursor: pointer;
     transform-origin: center;
+    transform-origin: 50% 50%;
 }
 
 .btn-social-share {
