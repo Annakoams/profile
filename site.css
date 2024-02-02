@@ -232,8 +232,8 @@ navbar
     color: transparent; /* Rend le texte transparent */
     text-shadow: 0 0 10px rgba(255, 255, 255, 1); /* Ombre blanche autour du texte */
     background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)); /* Fond blanc */
-    -webkit-background-clip: text; /* Indique que le fond blanc doit être visible à travers le texte */
-    background-clip: text;
+    -webkit-background-clip: text; /* Préfixe pour certains navigateurs WebKit */
+    background-clip: text; 
   }
   @media screen and (max-width: 600px){
     .text-porfolio{
@@ -250,7 +250,9 @@ navbar
         font-size: 6vw;
       }
       .text-brillant-petit {
-        font-size: 4vw;
+        font-size: 4vw; /* Ajustez ici si nécessaire */
+        -webkit-background-clip: text; /* Préfixe pour certains navigateurs WebKit */
+        background-clip: text; 
       }
   }
   /* show showannimation */
@@ -365,6 +367,11 @@ a{
     text-decoration: none;
     list-style: none;
 
+}
+@media screen and (max-width: 768px) {
+    a.title-carte-project {
+        line-height: 1.5;
+    }
 }
 
 /* showannimation */
