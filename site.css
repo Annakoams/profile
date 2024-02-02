@@ -304,6 +304,11 @@ navbar
     width: 40px;
     height: 50px;
 }
+@media only screen and (max-width: 767px) {
+    #mouseBtn i {
+        left: 50%; /* Ajustez cette valeur si nécessaire pour le centrage horizontal */
+    }
+}
 
 
 
