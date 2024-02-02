@@ -281,17 +281,19 @@ navbar
 #mouseBtn i {
     position: absolute;
     font-size: 40px;
-    bottom: 150px;
+    top: 75%;
+    left: 50%;
     color: aliceblue;
-    transform: rotate(180deg);
-    transition: -webkit-transform 0.5s ease, transform 0.5s ease; /* Préfixes pour la compatibilité avec différents navigateurs */
+    transform: translate(-50%, -50%) rotate(180deg);
+    transition: -webkit-transform 0.5s ease, transform 0.5s ease;
     z-index: 1400;
     transform-origin: 50% 50%;
+
 }
 
 #mouseBtn i:hover {
-    transform: scale(2);
-    -webkit-transform: scale(2); /* Préfixes pour la compatibilité avec différents navigateurs */
+    transform: translate(-50%, -50%) scale(2);
+    -webkit-transform: translate(-50%, -50%) scale(2);
     cursor: pointer;
     transform-origin: center;
     transform-origin: 50% 50%;
