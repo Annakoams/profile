@@ -281,7 +281,7 @@ navbar
 #mouseBtn i {
     position: absolute;
     font-size: 40px;
-    top: 75%;
+    top: 85%;
     left: 50%;
     color: aliceblue;
     transform: translate(-50%, -50%) rotate(180deg);
@@ -306,6 +306,7 @@ navbar
 }
 @media only screen and (max-width: 767px) {
     #mouseBtn i {
+        top: 70%;
         left: 50%; /* Ajustez cette valeur si nécessaire pour le centrage horizontal */
     }
 }
@@ -619,6 +620,10 @@ skills
 } */
 .chez-moi{
     margin-top:0px;
+}
+.pouce{
+    width: 50px;
+    
 }
 
 
