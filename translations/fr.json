@@ -2,78 +2,52 @@
     "button-lunch webside": "btn-l",
     "button_back": "Retour",
     "skills": "Compétences",
-
-
     "link_start": "Bienvenue",
     "link_about": "À propos de moi",
     "link_project": "Projet",
     "link_skills": "Compétences",
     "link_testiomonials": "Témoignages",
     "link_contact": "Contact",
-
-  
-
     "text_welcom": "Bienvenue !",
     "text_toMy": "à mon",
     "porfolio": "portfolio",
     "passionate": "Passionné, créative et à l'écoute",
     "web_developpeur": "Développeuse Web et Mobile",
-
-    
     "about": "À propos de moi",
     "my_name": "Je m'appelle Anna Stelmach",
-    "desciptionTitle1_about": " Bonjour ! Je suis Anna, votre Développeur Web !",
-    "desciption1_about": "Après 15 ans d'expérience dans l'industrie de la mode et une décennie à la tête de magasins, j'ai entrepris un changement de carrière passionnant qui m'a conduit vers le développement web. Aujourd'hui, je suis là pour vous aider à concrétiser vos projets en ligne avec expertise et dévouement.",
+    "desciptionTitle1_about": " Bonjour ! Je suis Anna, votre Développeuse Web !",
+    "desciption1_about": "Après 15 ans d'expérience dans l'industrie de la mode et une décennie à la tête de magasins, j'ai entrepris un changement de carrière passionnant vers le développement web. Aujourd'hui, je suis là pour vous aider à concrétiser vos projets en ligne avec expertise et dévouement.",
     "desciptionTitle2_about": " Expertise Certifiée, Service Personnalisé :",
-    "desciption2_about": "Avec un diplôme de développeur web certifié RNCP, je combine une expertise technique avec un service client exceptionnel. Chaque projet est traité avec dévouement et professionnalisme, vous assurant une solution sur mesure et de qualité.",
+    "desciption2_about": "Avec un diplôme de développeuse web certifié RNCP, je combine une expertise technique avec un service client exceptionnel. Chaque projet est traité avec dévouement et professionnalisme, vous assurant une solution sur mesure et de qualité.",
     "desciptionTitle3_about": " Vitrine ou E-commerce, Votre Succès en Ligne Débute Ici :",
     "desciption3_about": "Que vous souhaitiez présenter votre entreprise avec élégance ou vendre vos produits en ligne, je suis là pour concrétiser votre vision. Avec une expertise pointue dans le développement de sites vitrines et e-commerce, je vous aide à atteindre vos objectifs en ligne.",
     "desciptionTitle4_about": "📈 Un Site qui Évolue avec Vous :",
     "desciption4_about": "Votre site ne sera pas seulement un outil de marketing, mais un partenaire dans votre croissance. Avec des fonctionnalités évolutives et une architecture flexible, votre site sera prêt à évoluer avec votre entreprise.",
     "desciptionTitle5_about": "🌟 Une Expérience Utilisateur Mémorable :",
-    "desciption5_about": "Je mets l'accent sur la convivialité et l'esthétique pour offrir à vos visiteurs une expérience fluide et engageante. Chaque élément de votre site sera soigneusement conçu pour captiver l'attention et encourager l'action.",   
+    "desciption5_about": "Je mets l'accent sur la convivialité et l'esthétique pour offrir à vos visiteurs une expérience fluide et engageante. Chaque élément de votre site sera soigneusement conçu pour captiver l'attention et encourager l'action.",
     "desciptionTitle6_about": "🤝 Prêt à Passer à l'Acton ?",
-    "desciption6_about": "Contactez-moi dès aujourd'hui pour discuter de votre projet de site web ! Ensemble, nous pouvons créer une présence en ligne qui vous démarquera de la concurrence et séduira vos clients potentiels.",   
-
+    "desciption6_about": "Contactez-moi dès aujourd'hui pour discuter de votre projet de site web ! Ensemble, nous pouvons créer une présence en ligne qui vous démarquera de la concurrence et séduira vos clients potentiels.",
     "CV": "Téléchargez mon CV",
-  
-    
     "project": "Projets",
     "date1_project": "Décembre 2022 - Janvier 2023",
     "date2_project": "Janvier 2023 - Mai 2023",
-    
-
     "text_1": "J'adore coder.",
     "text_2": "Construire des rêves numériques, une ligne à la fois.",
-    "text_3": "Je suis impatient de mettre ma passion et ma détermination au service de la réussite de votre projet.",
-    
-
+    "text_3": "Je suis impatiente de mettre ma passion et ma détermination au service de la réussite de votre projet.",
     "contact_apelle": "Appelez-moi !",
     "chez_moi": "Chez moi",
     "text_motivation": "En tant que développeuse passionnée, mon objectif est de créer des solutions sur mesure qui non seulement répondent à vos besoins, mais qui dépassent également vos attentes. Avec une approche axée sur la collaboration et une passion pour l'innovation, je suis là pour vous accompagner dans chaque étape de votre projet. Ensemble, nous pouvons transformer vos idées en succès. Faisons équipe et créons quelque chose d'exceptionnel! Contactez-moi !",
-    
-
     "title": "Backoffice pour l'application OneJitsu",
     "p1_onejitsu": "Actuellement engagé par le créateur de l'application Onjitsu, je travaille en solo sur la création du backoffice en mode bureau de l'application. En raison de la confidentialité, des détails spécifiques ne peuvent pas être divulgués, mais je suis passionné par ce défi significatif.",
     "p2_onejitsu": "Cette mission consiste à permettre aux gestionnaires de clubs de gérer efficacement leurs clubs, les profils de leurs membres, de créer des événements, des cours et des actualités, ainsi que de modifier les coordonnées et les horaires. L'interface permet également d'interagir avec le nombre de clubs.",
     "p3_onejitsu": "Le backend de l'application est naturellement géré par Firestore.",
-    
-
-
     "title_quiAntique": "Restaurant Quai Antique",
     "p1_quaiAntique": "Ce projet a été un<span class=\"fw-bolder text-fort\"> défi</span> significatif pour moi, réalisé dans le cadre de mon examen final pour obtenir le diplôme de développeur web. Il s'agit d'une application complète avec des interfaces <span class=\"fw-bolder text-fort\">frontend et backend</span>, accompagnée d'un<span class=\"fw-bolder text-fort\"> backoffice administrateur</span>. J'y ai consacré cinq mois pour le terminer, et ce projet m'a fourni un aperçu concret du métier de développeur.",
     "p2_quaiAntique": "Pour sa réalisation, j'ai choisi d'utiliser <span class=\"fw-bolder text-fort\">React.js et Node.js</span>, car ce sont les technologies que je maîtrisais le mieux. J'ai commencé par concevoir <span class=\"fw-bolder text-fort\">toutes les interfaces</span>, tant pour <span class=\"fw-bolder text-fort\">le bureau que pour le mobile, en utilisant Figma</span>, me permettant de visualiser mon site. Ensuite, j'ai créé des <span class=\"fw-bolder text-fort\">diagrammes de cas d'utilisation et un modèle de données conceptuel (MDC)</span> pour comprendre et définir la base de données et les fonctionnalités du site.",
     "p3_quaiAntique": "Le développement a commencé par la création d'un <span class=\"fw-bolder text-fort\">composant communiquant avec ma base de données via des requêtes SQL</span>. J'ai développé mon <span class=\"fw-bolder text-fort\">API RESTful avec Express.js</span> et le <span class=\"fw-bolder text-fort\">frontend basé sur mes maquettes</span>.<br> <span class=\"text-decoration-underline\">L'aspect visuel de ce projet a été relégué au second plan par rapport aux fonctionnalités qu'il offrait.</span>",
     "p4_quaiAntique": "Les utilisateurs peuvent <span class=\"fw-bolder text-fort\">s'inscrire, se connecter, réserver une table et l'administrateur, via le backoffice, peut modifier pratiquement tout sur le site</span>. Bien que ce projet ait présenté un <span class=\"fw-bolder text-fort\">défi</span> considérable, il a été très <span class=\"fw-bolder text-fort\">éducatif</span>. Il a également suscité un engagement envers l'amélioration continue et la prise de conscience qu'il <span class=\"fw-bolder text-fort\">y a encore beaucoup à apprendre</span> et à perfectionner dans mon parcours en tant que développeur. Je continue à l'améliorer, car il y a encore beaucoup à faire.",
-
-    
     "title_coeur": "Association Cœur sur la main",
     "p1_coeur": "Il s'agit de mon tout premier projet de site web que j'ai commencé en octobre 2022 et qui m'a pris un mois pour le terminer.",
     "p2_coeur": "C'était un projet front-end réalisé dans le cadre d'une mission individuelle pendant mes études à Studi. Avec du recul, je réalise à quel point il est basique, mais vous savez ce qu'on dit - n'oubliez jamais vos débuts ! <br>pour se rappeler d'où l'on vient !",
     "p3_coeur": "Ce projet me permet de prendre conscience des progrès que j'ai réalisés en peu de temps dans le domaine de la programmation."
-      
-
-
-
-
 }

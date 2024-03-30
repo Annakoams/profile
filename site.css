@@ -324,9 +324,7 @@ navbar
     }
 }
 
-.tile_commercial{
-    
-}
+
 
 
 /* 
@@ -637,18 +635,19 @@ skills
     
 }
 .getTutchTitle{
+    font-size:larger;
     margin-top: 0;
-    font-size:large;
+   
     
 }
 .getTutchText{
-    font-size: larger;
+    font-size: large;
 
 }
 @media screen and (max-width: 768px){
     .getTutchTitle{
         margin-top:40px;
-        font-size: larger;
+        font-size: large;
     }
     .getTutchText{
         font-size: medium;
