@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Charger la langue par défaut (par exemple, anglais)
     changeLanguage('en');
-    
+
     // Initialiser la position du handle du slider
     const sliderHandle = document.querySelector('.handle');
     sliderHandle.style.marginLeft = '-20px';
-    
-    
+
+
     // Attacher l'événement onclick au sélecteur de langue
     document.getElementById('languageSelector').addEventListener('click', function () {
         switchLanguage();
@@ -66,6 +66,7 @@ function changeLanguage(selectedLanguage) {
             console.error('Erreur de chargement du fichier JSON :', error);
             // Affichez un message d'erreur à l'utilisateur ou chargez une langue par défaut
         });
+    console.log('h3')
 }
 
 
