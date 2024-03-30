@@ -315,7 +315,18 @@ navbar
 
 
 /* about me  */
+.about_commercial{
+    margin-top: 0;
+}
+@media only screen and (max-width: 767px) {
+    .about_commercial{
+        margin-top: 20%;
+    }
+}
 
+.tile_commercial{
+    
+}
 
 
 /* 
@@ -624,6 +635,24 @@ skills
 .pouce{
     width: 50px;
     
+}
+.getTutchTitle{
+    margin-top: 0;
+    font-size:large;
+    
+}
+.getTutchText{
+    font-size: larger;
+
+}
+@media screen and (max-width: 768px){
+    .getTutchTitle{
+        margin-top:40px;
+        font-size: larger;
+    }
+    .getTutchText{
+        font-size: medium;
+    } 
 }
 
 
