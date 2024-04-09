@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Initialiser la position du handle du slider
     const sliderHandle = document.querySelector('.handle');
-    sliderHandle.style.marginLeft = '-20px';
+    sliderHandle.style.marginLeft = '-35px';
 
 
     // Attacher l'événement onclick au sélecteur de langue
