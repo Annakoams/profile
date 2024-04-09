@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Charger la langue par défaut (par exemple, anglais)
-    changeLanguage('en');
+    changeLanguage('fr');
 
     // Initialiser la position du handle du slider
     const sliderHandle = document.querySelector('.handle');
