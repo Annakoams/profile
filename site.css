@@ -161,7 +161,12 @@ navbar
     transition: margin-left 0.3s ease;
 }
 
-
+.img-thumbnail{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    
+}
 
 
 
