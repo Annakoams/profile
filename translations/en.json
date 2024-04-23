@@ -1,24 +1,18 @@
-
 {
     "button-lunch webside": "btn-l",
     "button_back": "Back",
-
-
-
+    "skills": "Slills",
     "link_start": "Welcome",
     "link_about": "About me",
     "link_project": "Project",
     "link_skills": "Skills",
     "link_testiomonials": "Testimonial",
     "link_contact": "Contact",
-
-
     "text_welcom": "Welcome !",
     "text_toMy": "to my",
-    "porfolio": "portfolio" ,
+    "porfolio": "portfolio",
     "passionate": "Passionate, creative and attentive",
     "web_developpeur": "Web and Mobile Developer",
-
     "about": "About Me",
     "my_name": "My name is Anna Stelmach",
     "desciptionTitle1_about": " Hello! I'm Anna, your Web Developer!",
@@ -33,36 +27,31 @@
     "desciption5_about": "I prioritize user-friendliness and aesthetics to provide your visitors with a seamless and engaging experience. Each element of your site will be meticulously crafted to capture attention and drive action",
     "desciptionTitle6_about": "🤝 Ready to Take Action?",
     "desciption6_about": "Get in touch with me today to discuss your website project! Together, we can craft an online presence that sets you apart from the competition and captivates your potential clients.",
-
-    "project":  "Projects",
+    "project": "Projects",
     "date1_project": "December 2022 - January 2023",
     "date2_project": "January 2023 - May 2023",
-
-
-    "text_1":  "I love coding.",
+    "text_1": "I love coding.",
     "text_2": "Building Digital Dreams, One Line at a Time.",
     "text_3": "I'm eager to bring my passion and determination to contribute to the success of your project.",
-
     "contact_apelle": "Call me!",
     "chez_moi": "At my place",
     "text_motivation": "As a passionate developer, my mission is to craft tailored solutions that not only meet your needs, but also exceed your expectations. With a collaborative approach and a fervor for innovation, I'm here to guide you through every step of your project. Together, we can turn your ideas into triumphs. Let's team up and create something extraordinary! Get in touch with me.",
-
-
     "title_onejitsu": "Backoffice for the OneJitsu application",
     "p1_onejitsu": "Currently engaged by the creator of the Onjitsu application, I am working solo on creating the desktop mode backoffice of the application. Due to confidentiality, specific details cannot be disclosed, but I am passionate about this significant challenge.",
     "p2_onejitsu": "This mission involves enabling club managers to efficiently manage their clubs, the profiles of their members, create events, classes, and news, as well as modify contact details and schedules. The interface also allows interaction with the number of clubs.",
-    "p3_onejitsu":  "The application's backend is naturally managed by Firestore.",
+    "p3_onejitsu": "The application's backend is naturally managed by Firestore.",
     "skills-onejitsu": "Skills",
-
-    
     "title_quiAntique": "Restaurant Quai Antique",
     "p1_quaiAntique": "This project was a <span class=\"fw-bolder text-fort\"> significant challenge</span> for me, undertaken as part of my final exam to obtain the Web Developer diploma. It is a comprehensive application with both <span class=\"fw-bolder text-fort\">frontend and backend</span> interfaces, accompanied by an<span class=\"fw-bolder text-fort\"> administrator's backoffice</span>. I dedicated five months to its completion, and this project provided me with a tangible insight into the developer's profession.",
     "p2_quaiAntique": "For its realization, I chose to use <span class=\"fw-bolder text-fort\">React.js and Node.js</span>, as they were the technologies I was most proficient in. I began by designing <span class=\"fw-bolder text-fort\">all screens</span>, both for <span class=\"fw-bolder text-fort\">desktop and mobile, using Figma</span>, allowing me to visualize my site. Following this, I created use case <span class=\"fw-bolder text-fort\"> diagrams and a conceptual data model (CDM)</span> to understand and define the database and site functionalities.",
     "p3_quaiAntique": "The development started with the creation of a <span class=\"fw-bolder text-fort\">component communicating with my database through SQL queries</span>. I developed my <span class=\"fw-bolder text-fort\">RESTful API with Express.js</span> and the <span class=\"fw-bolder text-fort\">frontend based on my mock-ups</span>.<br> <span class=\"text-decoration-underline\">The visual aspect of this project took a backseat to the functionalities it offered.</span>",
     "p4_quaiAntique": "Users can <span class=\"fw-bolder text-fort\">register, log in, reserve a table, and the administrator, through the backoffice, can modify practically everything on the site</span>. While this project presented a considerable <span class=\"fw-bolder text-fort\">challenge</span>, it was highly <span class=\"fw-bolder text-fort\">educational</span>. It also sparked a commitment to continuous improvement and a realization that <span class=\"fw-bolder text-fort\">there is still much for me to learn</span> and refine in my journey as a developer. I continue to enhance it, as there is much more to do.",
-    
     "title_coeur": "Association Coeur sur la main",
     "p1_coeur": "This was my very first website project that I started in October 2022 and took me a month to complete.",
     "p2_coeur": "It was a frontend project and part of an individual gig during my Studi school days. Looking back, I realize how basic it is, but you know what they say - never forget your roots! <br>to remember where you started!",
-    "p3_coeur": "This project allows me to become aware of the progress I've made in a short time in the field of programming."
+    "p3_coeur": "This project allows me to become aware of the progress I've made in a short time in the field of programming.",
+    "title_Sama": "Sama Agency web site",
+    "p1_Sama": "I am currently engaged by a renowned event agency to design and develop their dynamic website. My goal is to create an online platform that accurately reflects the agency's distinctive identity and expertise in crafting memorable events.",
+    "p2_Sama": "This project transcends mere website design. It presents an opportunity to craft an immersive experience for visitors, with a responsive design tailored to all devices, from tablets to smartphones.",
+    "p3_Sama": "I am also committed to optimizing the organic search ranking SEO of each page to propel the site to the top of search results. My aim is clear: to generate a steady flow of organic traffic while enhancing the agency's visibility to reach new audiences.Through this project, I employ a strategic and creative approach to breathe life into the agency's vision and position it competitively in the current digital landscape."
 }
