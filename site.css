@@ -1,12 +1,13 @@
 .collapse.show {
     background-color: #212529;
+    color:black;
     width: 100%; 
-    margin-top: 10px;
+    top:0;
     padding-left: 10px;
     display: block;
 }
 .collapsing{
-    height: 20!important;
+    height: 20px!important;
 }
 
 
@@ -55,11 +56,14 @@
 
 section, footer{
     display:grid;
+    
     place-items: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 70vh;
     width: 100%;
-    background: linear-gradient(360deg, #191625,#191625,#520e4b,#191625,#191625)
+    /* background: linear-gradient(360deg, #191625,#191625,#520e4b,#191625,#191625) */
+    background-color:white;
+    /* background-color: var(--color-bg); */
 }
 
 
@@ -80,7 +84,9 @@ section, footer{
     filter:blur(0);
     transform: translateX(0);
    }
-
+.text-translator{
+    color:white
+}
     /* 
 navbar
  */
@@ -225,10 +231,18 @@ navbar
     -webkit-background-clip: text; /* Indique que le fond blanc doit être visible à travers le texte */
     background-clip: text;
   }
-  .text-gros {
-    font-size: 3vw;
+  .text-dev {
+    margin-top: 20px;
+    font-size: 4vw;
     font-weight: bold;
     color: white; /* Rend le texte transparent */
+
+  }
+  .text-gros {
+    margin-top: 20px;
+    font-size: 3vw;
+    font-weight: bold;
+    color: var(--text1); /* Rend le texte transparent */
 
   }
   .text-brillant-petit {
@@ -251,7 +265,7 @@ navbar
     .transparent-texte-gros {
         font-size: 14vw;
       }
-      .text-gros {
+      .text-gros, .text-dev {
         font-size: 6vw;
       }
       .text-brillant-petit {
@@ -322,11 +336,18 @@ navbar
 /* about me  */
 .about_commercial{
     margin-top: 0;
+    margin-bottom: 0;
 }
 @media only screen and (max-width: 767px) {
     .about_commercial{
-        margin-top: 20%;
+        margin-top: 5%;
+        margin-bottom: 0;
     }
+}
+.moi-image{
+    width: 300px;
+    height: auto;
+    
 }
 
 
@@ -345,6 +366,19 @@ showannimation
     transition-delay: 200ms;
     
    }
+/*
+prestations
+*/
+.carte-prestations{
+    width: 300px;
+}
+@media  screen and (max-width:600px) {
+    .carte-prestations {
+        width: 260px;
+    }
+    
+}
+
 
 /* 
 project
@@ -375,9 +409,7 @@ a{
       border-bottom: 2px solid var(--color-accent);
     }
     
-    .bg-project {
-      background-color: var(--color-bg);
-    }
+   
   
     #project a {
       color: white;
@@ -388,6 +420,7 @@ a{
 #project ul li.card-text{
     text-decoration: none;
     list-style: none;
+    color: white;
 
 }
 @media screen and (max-width: 768px) {
@@ -491,10 +524,10 @@ skills
 /* phrases */
 .phrase {
     font-weight: 700; /* Extrabold */
-    font-size: 5vw;
+    font-size: 4vw;
     color: rgb(0, 0, 0);
-    opacity: 0.2;
-    transition: opacity 6s, color 1s;
+    opacity: 0;
+    transition: opacity 1s, color 1s;
     line-height: 1.5;
     letter-spacing: -0.2px; /* Ajustez la valeur selon vos préférences */
     font-stretch: expanded; /* Vous pouvez également utiliser condensed ou normal */
@@ -505,7 +538,7 @@ skills
         font-size: 8vw;
         color: rgb(0, 0, 0);
         opacity: 0.2;
-        transition: opacity 6s, color 1s;
+        transition: opacity 1s, color 1s;
         line-height: 1.5;
         letter-spacing: -0.2px; /* Ajustez la valeur selon vos préférences */
         font-stretch: expanded; /* Vous pouvez également utiliser condensed ou normal */
@@ -515,7 +548,7 @@ skills
   
   .visible {
     opacity: 1;
-    color: white;
+    color: black;
   }
 /* contacer moi */
 .liens-contact {
@@ -636,10 +669,7 @@ skills
 .chez-moi{
     margin-top:0px;
 }
-.pouce{
-    width: 50px;
-    
-}
+
 .getTutchTitle{
     font-size:larger;
     margin-top: 0;
