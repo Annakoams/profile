@@ -350,7 +350,32 @@ navbar
     
 }
 
+.surligniement{
+    color :inherit;
+    display: inline;
+    text-decoration: none !important;
+    background: linear-gradient(to top,#9c076a 0%,#9c076a 0.3% 10%,transparent 10.01%) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.4s;
+}
 
+.surligniement:hover{
+    background-size: 100% 100%;
+    color: inherit;
+}
+/* .surligniement::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 1px;
+    background: black;
+    transition: width 0.2s  ease-in-out;
+}
+.surligniement:hover::after{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+} */
 
 
 /* 
