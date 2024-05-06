@@ -353,7 +353,6 @@ navbar
 .surligniement{
     color :inherit;
     display: inline;
-    text-decoration: none !important;
     background: linear-gradient(to top,#9c076a 0%,#9c076a 0.3% 10%,transparent 10.01%) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.4s;
