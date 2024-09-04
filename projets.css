@@ -187,7 +187,7 @@ ul, ol {
     margin: auto; /* Centrer horizontalement */
    
 }
-ul.builtAssets, li.builtAssets{
+ul.builtAssets, li.builtAssets ,ul.mondial2roues, li.mondial2roues{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -195,7 +195,7 @@ ul.builtAssets, li.builtAssets{
     align-items: center;
     text-decoration: dotted;
 }
-.li.builtAssets{
+.li.builtAssets, li.mondial2roues{
     text-decoration: dotted;
 }
 .text-fort {
