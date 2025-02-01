@@ -33,4 +33,8 @@ a{
     color:var(--text1)
 }
 
+/* indicateurs carouselle */
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+}
 
