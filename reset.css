@@ -3,7 +3,7 @@ body{
     --color-accent:#e22b6d;
      --color-accent-hover:#9c076a;
      --color-section:#ede7f2;
-     --text1:#173457;
+     --text1:#000000;
      --text2:#122236;
      background-color:var(--color-bg) ;
      box-sizing: border-box;
